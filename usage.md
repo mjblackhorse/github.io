@@ -26,7 +26,7 @@ The environment settings used in our evaluations are listed as follow:
 
 ### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/1EJPBuPSFbh6DdeGNRW8ojc5GqgdkDeGb/view?usp=sharing)
 
-### **Step-2**: Generate birthmark
+### **Step-2**: Birthmark generation
 1. Create an AVD via Genymotion.
  The AVD settings used in our evaluation are:
     * Device: Custom Phone
@@ -64,3 +64,9 @@ The environment settings used in our evaluations are listed as follow:
 java -jar GridDroid.jar -gen bm_gen.properties
 ```
 
+### **Step-3**: Birthmark comparison
+1. Download and edit the configuration file [bm_compare.properties](bm_compare.properties) accordingly. The parameters are:
+2. Execute following command to generate birthmark:
+```
+java -jar GridDroid.jar -cmp bm_compare.properties
+```
