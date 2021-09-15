@@ -26,7 +26,7 @@ This page describes how to deploy and run GridDroid
 
 ## Run GridDroid
 
-### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/136mLy5osarexJYg-Jln-RaB5TEvPBvfw/view?usp=sharing)
+### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/1EJPBuPSFbh6DdeGNRW8ojc5GqgdkDeGb/view?usp=sharing)
 
 ### **Step-2**: Generate birthmark
 * Create an AVD via Genymotion
