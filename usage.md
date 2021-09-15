@@ -32,20 +32,20 @@ This page describes how to deploy and run GridDroid
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
   * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
 * Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. The parameters are:
-  * `android_sdk_path`=E:\\IDE\\AndroidSDK\\SDK
-  * `ant_root_path`=E:\\IDE\\apache-ant-1.10.11
-  * `aapt_path`=E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe
-  * `genymotion_home` = C:\\Program Files\\Genymobile\\Genymotion\\
-  * `vbox_home` = C:\\Program Files\\Oracle\\VirtualBox\\
-  * `max_step`=1000
-  * `delta_c`=200
+  * `android_sdk_path`: path ot the android sdk (e.g., E:\\IDE\\AndroidSDK\\SDK)
+  * `ant_root_path`: path to the ant root directory (e.g.,E:\\IDE\\apache-ant-1.10.11)
+  * `aapt_path`:  path to the aapt.exe (e.g., E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe)
+  * `genymotion_home`:  nstall directory of Genymotion (e.g, C:\\Program Files\\Genymobile\\Genymotion\\)
+  * `vbox_home`: the install directory of VirtualBox (e.g., C:\\Program Files\\Oracle\\VirtualBox\\)
+  * `max_step`: $$r_m$$ max allowed loops for exploring a single apk, default value is 1000.
+  * `max_unchange_step`: $$c_m$$ max allowed non-effective action limits, default value is 200
   * `delta_l`=0.8
-  * `timelimit`=16000
-  * `genymotion_delploy_dir`=D:\\deployed\\
-  * `avd`=avds/Custom Phone-6.0 320x480
-  * `tool_name`=RepDroid
-  * `apk_dir`=H:\\DataSet_S1\\FDroid\\
-  * `output_dir`=J:\\TestOutPut\\RepDroid_by_Majun\\S1\\FDroid\\
-  * `reinstallapk`=true
-  * `takescreenshot`=true
-  * `max_explore_depth`=2
+  * `timelimit`: max allowed time (unit: seconds) for exploring a single apk
+  * `genymotion_delploy_dir`: the deploy directory of Genymotion (e.g., D:\\deployed\\)
+  * `avd`: path to the backup fresh avd (e.g., avds/Custom Phone-6.0 320x480)
+  * `tool_name`: the tool to be used (options including `RepDroid`, `RegionDroid' and `GridDroid')
+  * `apk_dir`: the dir containing apks to generate birthmark (e.g., H:\\DataSet_S1\\FDroid\\)
+  * `output_dir`: the dir for keeping generation results (e.g., J:\\TestOutPut\\RepDroid_by_Majun\\S1\\FDroid\\)
+  * `reinstallapk`: if set `true`, an installed apk would be reinstalled 
+  * `takescreenshot`: if set `true', an screenshot would be taken each time a new group is encountered
+  * `max_explore_depth`: $$d_m$$ the birthmark depth limit, default value is 2
