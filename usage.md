@@ -10,14 +10,14 @@ This page describes how to deploy and run GridDroid
 * Emulator: 
   * Genymotion, version 3.2.0 (evaluated)
   * AVD Settings (evaluated)
-   * Custom Phone
-   * Android API: 6.0 API 23
-   * Size: 480
-   * Density: 160-MDPI
-   * Procesors: 4
-   * Memeory Size: 2048 MB
-   * Network: NAT (some app require internet access)
-   * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
+    * Custom Phone
+    * Android API: 6.0 API 23
+    * Size: 480
+    * Density: 160-MDPI
+    * Procesors: 4
+    * Memeory Size: 2048 MB
+    * Network: NAT (some app require internet access)
+    * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
 
 
 
