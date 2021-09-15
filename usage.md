@@ -42,7 +42,7 @@ The environment settings used in our evaluations are listed as follow:
     
 #### 2. Backup fresh AVD
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
-  * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
+  * Copy the directory of the previously created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
 
 #### 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. 
   * For description about the parameters, please refer to the [Description page of bm_gen.properties](bm_gen_description.md).
