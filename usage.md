@@ -6,7 +6,7 @@ This page describes how to deploy and run GridDroid
 * Java SDK: 1.8.0_281 (evaluated)
 * Android SDK (evaluated):
   * build-tools: 26.0.2
-* Ant: apache-ant-1.10.11 (evaluated)
+* Apache-ant: 1.10.11 (evaluated)
 * Emulator: 
   * Genymotion, version 3.2.0 (evaluated)
   * AVD Settings (evaluated)
