@@ -8,15 +8,15 @@ This page describes how to deploy and run GridDroid
 
 * Android SDK (evaluated):
 
-** build-tools: 26.0.2
+  * build-tools: 26.0.2
 
 * Ant: apache-ant-1.10.11 (evaluated)
 
 * Emulator 
 
-** Genymotion, version 3.2.0 (evaluated)
+  * Genymotion, version 3.2.0 (evaluated)
 
-** AVD Settings (evaluated)
+  * AVD Settings (evaluated)
 
 *** Custom Phone 
 
