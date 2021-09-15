@@ -17,6 +17,7 @@ This page describes how to deploy and run GridDroid
     * Procesors: 4
     * Memeory Size: 2048 MB
     * Network: NAT (some app require internet access)
+    * Turn off window animation, transition animation and animation duration in the "Developer options"
     * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
 
 
