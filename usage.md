@@ -26,6 +26,14 @@ This page describes how to deploy and run GridDroid
 
 *** Density: 160-MDPI
 
+*** Procesors: 4
+
+*** Memeory Size: 2048 MB
+
+*** Network: NAT (Some app require internet access)
+
+
+
 ## Run GridDroid
 
 ### **Step-1**: Download and unzip the GridDroid.zip
