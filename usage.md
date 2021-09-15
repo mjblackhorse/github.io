@@ -45,7 +45,7 @@ The environment settings used in our evaluations are listed as follow:
   * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
 
 #### 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. 
-    * For description about the parameters within the  bm_gen.properties file, please refer to the [bm_gen.properties Description](bm_gen_description.md) page.
+  * For description about the parameters within the  bm_gen.properties file, please refer to the [bm_gen.properties Description](bm_gen_description.md) page.
 
 #### 4. Execute following command to generate birthmark:
 ```
@@ -54,7 +54,7 @@ java -jar GridDroid.jar -gen bm_gen.properties
 
 ### **Step-3**: Birthmark comparison
 #### 1. Download and edit the configuration file [bm_compare.properties](bm_compare.properties) accordingly. 
-    *  For description about the parameters within the  bm_compare.properties file, please refer to the [bm_compare.properties Description](bm_compare_description.md) page.
+  * For description about the parameters within the  bm_compare.properties file, please refer to the [bm_compare.properties Description](bm_compare_description.md) page.
 
  
 #### 2. Execute following command to compare birthmark:
