@@ -27,7 +27,7 @@ The environment settings used in our evaluations are listed as follow:
 ### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/1EJPBuPSFbh6DdeGNRW8ojc5GqgdkDeGb/view?usp=sharing)
 
 ### **Step-2**: Birthmark generation
-1. #### Create an AVD via Genymotion.
+#### 1. Create an AVD via Genymotion.
  The AVD settings used in our evaluation are:
     * Device: Custom Phone
     * Android API: 6.0 API 23
@@ -38,10 +38,10 @@ The environment settings used in our evaluations are listed as follow:
     * Network: NAT (some app require internet access)
     * Turn off window animation, transition animation and animation duration in the "Developer options"
     * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
-2. Backup fresh AVD
+#### 2. Backup fresh AVD
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
   * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
-3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. The parameters are:
+#### 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. The parameters are:
   * `android_sdk_path`: path ot the android sdk (e.g., `E:\\IDE\\AndroidSDK\\SDK`).
   * `ant_root_path`: path to the ant root directory (e.g., `E:\\IDE\\apache-ant-1.10.11`).
   * `aapt_path`:  path to the aapt.exe (e.g., `E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe`).
@@ -59,13 +59,13 @@ The environment settings used in our evaluations are listed as follow:
   * `reinstallapk`: if set `true`, an installed apk would be reinstalled.
   * `takescreenshot`: if set `true`, an screenshot would be taken each time a new group is encountered.
   * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is `2`.
-4. Execute following command to generate birthmark:
+#### 4. Execute following command to generate birthmark:
 ```
 java -jar GridDroid.jar -gen bm_gen.properties
 ```
 
 ### **Step-3**: Birthmark comparison
-1. Download and edit the configuration file [bm_compare.properties](bm_compare.properties) accordingly. The parameters are:
+#### 1. Download and edit the configuration file [bm_compare.properties](bm_compare.properties) accordingly. The parameters are:
   * `tool_name`: the tool to be used (options including `RepDroid`, `RegionDroid` and `GridDroid`)
   * `bm_dir1`: the dir1 containing birthmarks to be compared (e.g., `J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\strategy_output_FDroid\\`)
   * `bm_dir2`: the dir2 containing birthmarks to be compared (e.g., `J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\strategy_output_FDroid\\`)
@@ -82,7 +82,7 @@ The following parameters are only applicable to GridDroid:
   * `delta_g`: Union Vector filter threashold (i.e., $\delta_g$), defalut value is `0.65`.
   * `bucket_number`: interval number of Bucket Vector filter (i.e., $k$), defalut value is `8`.
   * `bucket_length`: interval length of Bucket Vector filter (i.e., $\sigma$), defalut value is `25`.
-2. Execute following command to generate birthmark:
+#### 2. Execute following command to generate birthmark:
 ```
 java -jar GridDroid.jar -cmp bm_compare.properties
 ```
