@@ -44,7 +44,8 @@ The environment settings used in our evaluations are listed as follow:
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
   * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
 
-#### 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. For description about the parameters within the configuration file bm_gen.properties, please refer to the [bm_gen.properties Description](bm_gen_description.md) page.
+#### 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. 
+    * For description about the parameters within the  bm_gen.properties file, please refer to the [bm_gen.properties Description](bm_gen_description.md) page.
 
 #### 4. Execute following command to generate birthmark:
 ```
