@@ -75,7 +75,7 @@ java -jar GridDroid.jar -gen bm_gen.properties
  
  Birthmarks contained in `bm_dir1` would be compared with those contained in `bm_dir2`.
  
-  * `output_file`=J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\similarity.txt
+  * `output_file`: the file to store comparison results, (e.g., `J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\similarity.txt`).
   * `filteron`:  if set `true`, filters would be turned on.
   * `use_ext_matching_algorithm`:  if set `true`, the extended matching algorithm would be applied.
   * `delta_s`: the app similarity threshold (i.e., $\delta_s$), default value for GridDroid is `0.76`.
@@ -86,7 +86,7 @@ The following parameters are only applicable to GridDroid:
   * `bucket_number`: interval number of Bucket Vector filter (i.e., $k$), defalut value is `8`.
   * `bucket_length`: interval length of Bucket Vector filter (i.e., $\sigma$), defalut value is `25`.
 
-#### 2. Execute following command to generate birthmark:
+#### 2. Execute following command to compare birthmark:
 ```
 java -jar GridDroid.jar -cmp bm_compare.properties
 ```
