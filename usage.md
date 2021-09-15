@@ -60,6 +60,7 @@ The environment settings used in our evaluations are listed as follow:
   * `takescreenshot`: if set `true`, an screenshot would be taken each time a new group is encountered
   * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is `2`
 4. Execute following command to generate birthmark:
-    java -jar GridDroid.jar -gen bm_gen.properties
-
+```
+java -jar GridDroid.jar -gen bm_gen.properties
+```
 
