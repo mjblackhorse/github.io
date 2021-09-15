@@ -51,8 +51,8 @@ This page describes how to deploy and run GridDroid
   * `vbox_home`: the install directory of VirtualBox (e.g., `C:\\Program Files\\Oracle\\VirtualBox\\`)
   * `max_step`: max allowed loops for exploring a single apk (i.e., $r_m$), default value is `1000`
   * `max_unchange_step`:  max allowed non-effective action limit  (i.e., $c_m$), default value is `200`
-  * `delta_l`: the layout similarity threshold (i.e., $\delta_l$), default value is `0.8'
-  * `timelimit`: max allowed time (unit: seconds) for exploring a single apk
+  * `delta_l`: the layout similarity threshold (i.e., $\delta_l$), default value is `0.8`
+  * `timelimit`: max allowed time (unit: seconds) for exploring a single apk, default value is `16000`
   * `genymotion_delploy_dir`: the deploy directory of Genymotion (e.g., `D:\\deployed\\`)
   * `avd`: path to the backup fresh avd (e.g., `avds/Custom Phone-6.0 320x480`)
   * `tool_name`: the tool to be used (options including `RepDroid`, `RegionDroid' and `GridDroid')
