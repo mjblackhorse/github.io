@@ -29,6 +29,7 @@ The environment settings used in our evaluations are listed as follow:
 ### **Step-2**: Birthmark generation
 #### 1. Create an AVD via Genymotion.
  The AVD settings used in our evaluation are:
+ 
     * Device: Custom Phone
     * Android API: 6.0 API 23
     * Size: 480
