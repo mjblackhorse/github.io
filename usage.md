@@ -27,8 +27,8 @@ The environment settings used in our evaluations are listed as follow:
 ### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/1EJPBuPSFbh6DdeGNRW8ojc5GqgdkDeGb/view?usp=sharing)
 
 ### **Step-2**: Generate birthmark
-1. Create an AVD via Genymotion
-  * AVD Settings (evaluated)
+1. Create an AVD via Genymotion.
+ The AVD settings used in our evaluation are:
     * Device: Custom Phone
     * Android API: 6.0 API 23
     * Size: 480
