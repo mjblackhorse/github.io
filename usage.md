@@ -49,8 +49,8 @@ This page describes how to deploy and run GridDroid
   * `aapt_path`:  path to the aapt.exe (e.g., E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe)
   * `genymotion_home`:  nstall directory of Genymotion (e.g, C:\\Program Files\\Genymobile\\Genymotion\\)
   * `vbox_home`: the install directory of VirtualBox (e.g., C:\\Program Files\\Oracle\\VirtualBox\\)
-  * `max_step`: $$r_m$$ max allowed loops for exploring a single apk, default value is 1000.
-  * `max_unchange_step`: $$c_m$$ max allowed non-effective action limits, default value is 200
+  * `max_step`: $r_m$ max allowed loops for exploring a single apk, default value is 1000.
+  * `max_unchange_step`: $c_m$ max allowed non-effective action limits, default value is 200
   * `delta_l`=0.8
   * `timelimit`: max allowed time (unit: seconds) for exploring a single apk
   * `genymotion_delploy_dir`: the deploy directory of Genymotion (e.g., D:\\deployed\\)
@@ -60,4 +60,4 @@ This page describes how to deploy and run GridDroid
   * `output_dir`: the dir for keeping generation results (e.g., J:\\TestOutPut\\RepDroid_by_Majun\\S1\\FDroid\\)
   * `reinstallapk`: if set `true`, an installed apk would be reinstalled 
   * `takescreenshot`: if set `true', an screenshot would be taken each time a new group is encountered
-  * `max_explore_depth`: $$d_m$$ the birthmark depth limit, default value is 2
+  * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is 2
