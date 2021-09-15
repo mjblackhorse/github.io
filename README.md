@@ -2,8 +2,8 @@ GridDroid is an tool, built on top of runtime GUI, for detecting repackaging And
 
 
 ## Use GridDroid
-### [Download GridDroid](https/github.com)
-### Usage Description
+1. [Download GridDroid](https/github.com)
+2. Usage Description
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
