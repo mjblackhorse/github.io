@@ -29,7 +29,7 @@ The environment settings used in our evaluations are listed as follow:
 ### **Step-2**: Generate birthmark
 * Create an AVD via Genymotion
   * AVD Settings (evaluated)
-    * Custom Phone
+    * Device: Custom Phone
     * Android API: 6.0 API 23
     * Size: 480
     * Density: 160-MDPI
