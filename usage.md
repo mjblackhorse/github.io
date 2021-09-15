@@ -13,16 +13,14 @@
 This page describes how to deploy and run GridDroid
 
 ## Environment requirement
-
-* Operating System: Window 10 (evaluated)
-* Java SDK: 1.8.0_281 (evaluated)
-* Android SDK (evaluated):
+The environment settings used in our evaluations are listed as follow:
+* Operating System: Window 10 (currently we provide fully automation for only Window OS)
+* Java SDK: 1.8.0_281 
+* Android SDK :
   * build-tools: 26.0.2
-* Apache-ant: 1.10.11 (evaluated)
+* Apache-ant: 1.10.11 
 * Emulator: 
-  * Genymotion, version 3.2.0 (evaluated)
-  
-
+  * Genymotion, version 3.2.0
 
 ## Run GridDroid
 
