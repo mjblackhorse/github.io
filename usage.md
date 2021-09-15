@@ -30,15 +30,15 @@ The environment settings used in our evaluations are listed as follow:
 #### 1. Create an AVD via Genymotion.
  The AVD settings used in our evaluation are:
  
-    * Device: Custom Phone
-    * Android API: 6.0 API 23
-    * Size: 480
-    * Density: 160-MDPI
-    * Procesors: 4
-    * Memeory Size: 2048 MB
-    * Network: NAT (some app require internet access)
-    * Turn off window animation, transition animation and animation duration in the "Developer options"
-    * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
+* Device: Custom Phone
+* Android API: 6.0 API 23
+* Size: 480
+* Density: 160-MDPI
+* Procesors: 4
+* Memeory Size: 2048 MB
+* Network: NAT (some app require internet access)
+* Turn off window animation, transition animation and animation duration in the "Developer options"
+* To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
     
 #### 2. Backup fresh AVD
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
