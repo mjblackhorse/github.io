@@ -29,5 +29,5 @@ This page describes how to deploy and run GridDroid
     * Turn off window animation, transition animation and animation duration in the "Developer options"
     * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
 * Backup fresh AVD
-  * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`)
+  * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox``
   * 
