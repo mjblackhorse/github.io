@@ -27,7 +27,7 @@ The environment settings used in our evaluations are listed as follow:
 ### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/1EJPBuPSFbh6DdeGNRW8ojc5GqgdkDeGb/view?usp=sharing)
 
 ### **Step-2**: Generate birthmark
-* Create an AVD via Genymotion
+1. Create an AVD via Genymotion
   * AVD Settings (evaluated)
     * Device: Custom Phone
     * Android API: 6.0 API 23
@@ -38,10 +38,10 @@ The environment settings used in our evaluations are listed as follow:
     * Network: NAT (some app require internet access)
     * Turn off window animation, transition animation and animation duration in the "Developer options"
     * To run ARM apps, please install [Genymotion-ARM-Translation](https://github.com/m9rco/Genymotion_ARM_Translation)
-* Backup fresh AVD
+2. Backup fresh AVD
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
   * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
-* Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. The parameters are:
+3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. The parameters are:
   * `android_sdk_path`: path ot the android sdk (e.g., `E:\\IDE\\AndroidSDK\\SDK`)
   * `ant_root_path`: path to the ant root directory (e.g., `E:\\IDE\\apache-ant-1.10.11`)
   * `aapt_path`:  path to the aapt.exe (e.g., `E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe`)
@@ -59,3 +59,8 @@ The environment settings used in our evaluations are listed as follow:
   * `reinstallapk`: if set `true`, an installed apk would be reinstalled 
   * `takescreenshot`: if set `true`, an screenshot would be taken each time a new group is encountered
   * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is `2`
+4. Execute following command to generate birthmark:
+```
+java -jar GridDroid.jar -gen bm_gen.properties
+
+
