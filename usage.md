@@ -66,6 +66,20 @@ java -jar GridDroid.jar -gen bm_gen.properties
 
 ### **Step-3**: Birthmark comparison
 1. Download and edit the configuration file [bm_compare.properties](bm_compare.properties) accordingly. The parameters are:
+  * `tool_name`: the tool to be used (options including `RepDroid`, `RegionDroid' and `GridDroid')
+  * `bm_dir1`: the dir1 containing birthmarks to be compared (e.g., `J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\strategy_output_FDroid\\`)
+  * `bm_dir2`: the dir2 containing birthmarks to be compared (e.g., `J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\strategy_output_FDroid\\`)
+ 
+ Birthmarks contained in `bm_dir1` would be compared with those contained in `bm_dir2`.
+ 
+  * `output_file`=J:\\TestOutPut\\GridDroid_by_Majun\\S1\\FDroid\\similarity.txt
+  * `filteron`=true
+  * `use_ext_matching_algorithm`=false
+  * `delta_s`=0.76
+  * `delta_f`=0.45
+  * `delta_g`=0.65
+  * `bucket_number`=8
+  * `bucket_length`=25
 2. Execute following command to generate birthmark:
 ```
 java -jar GridDroid.jar -cmp bm_compare.properties
