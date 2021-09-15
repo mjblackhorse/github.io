@@ -59,5 +59,5 @@ This page describes how to deploy and run GridDroid
   * `apk_dir`: the dir containing apks to generate birthmark (e.g., `H:\\DataSet_S1\\FDroid\\`)
   * `output_dir`: the dir for keeping generation results (e.g., `J:\\TestOutPut\\RepDroid_by_Majun\\S1\\FDroid\\`)
   * `reinstallapk`: if set `true`, an installed apk would be reinstalled 
-  * `takescreenshot`: if set `true', an screenshot would be taken each time a new group is encountered
+  * `takescreenshot`: if set `true`, an screenshot would be taken each time a new group is encountered
   * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is `2`
