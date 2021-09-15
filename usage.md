@@ -23,6 +23,6 @@ This page describes how to deploy and run GridDroid
 
 ## Run GridDroid
 
-### **Step-1**: Download and unzip the GridDroid.zip
+### **Step-1**: Download and unzip the [GridDroid.zip](https://drive.google.com/file/d/136mLy5osarexJYg-Jln-RaB5TEvPBvfw/view?usp=sharing)
 
 ### **Step-2**: Generate birthmark
