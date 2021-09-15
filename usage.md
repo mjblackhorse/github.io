@@ -42,23 +42,23 @@ The environment settings used in our evaluations are listed as follow:
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
   * Copy the directory of the created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. The parameters are:
-  * `android_sdk_path`: path ot the android sdk (e.g., `E:\\IDE\\AndroidSDK\\SDK`)
-  * `ant_root_path`: path to the ant root directory (e.g., `E:\\IDE\\apache-ant-1.10.11`)
-  * `aapt_path`:  path to the aapt.exe (e.g., `E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe`)
-  * `genymotion_home`:  install directory of Genymotion (e.g, `C:\\Program Files\\Genymobile\\Genymotion\\`)
-  * `vbox_home`: the install directory of VirtualBox (e.g., `C:\\Program Files\\Oracle\\VirtualBox\\`)
-  * `max_step`: max allowed loops for exploring a single apk (i.e., $r_m$), default value is `1000`
-  * `max_unchange_step`:  max allowed non-effective action limit  (i.e., $c_m$), default value is `200`
+  * `android_sdk_path`: path ot the android sdk (e.g., `E:\\IDE\\AndroidSDK\\SDK`).
+  * `ant_root_path`: path to the ant root directory (e.g., `E:\\IDE\\apache-ant-1.10.11`).
+  * `aapt_path`:  path to the aapt.exe (e.g., `E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe`).
+  * `genymotion_home`:  install directory of Genymotion (e.g, `C:\\Program Files\\Genymobile\\Genymotion\\`).
+  * `vbox_home`: the install directory of VirtualBox (e.g., `C:\\Program Files\\Oracle\\VirtualBox\\`).
+  * `max_step`: max allowed loops for exploring a single apk (i.e., $r_m$), default value is `1000`.
+  * `max_unchange_step`:  max allowed non-effective action limit  (i.e., $c_m$), default value is `200`.
   * `delta_l`: the layout similarity threshold (i.e., $\delta_l$), default value is `0.8`
-  * `timelimit`: max allowed time (unit: seconds) for exploring a single apk, default value is `16000`
-  * `genymotion_delploy_dir`: the deploy directory of Genymotion (e.g., `D:\\deployed\\`)
-  * `avd`: path to the backup fresh avd (e.g., `avds/Custom Phone-6.0 320x480`)
-  * `tool_name`: the tool to be used (options including `RepDroid`, `RegionDroid` and `GridDroid`)
-  * `apk_dir`: the dir containing apks to generate birthmark (e.g., `H:\\DataSet_S1\\FDroid\\`)
-  * `output_dir`: the dir for keeping generation results (e.g., `J:\\TestOutPut\\RepDroid_by_Majun\\S1\\FDroid\\`)
-  * `reinstallapk`: if set `true`, an installed apk would be reinstalled 
-  * `takescreenshot`: if set `true`, an screenshot would be taken each time a new group is encountered
-  * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is `2`
+  * `timelimit`: max allowed time (unit: seconds) for exploring a single apk, default value is `16000`.
+  * `genymotion_delploy_dir`: the deploy directory of Genymotion (e.g., `D:\\deployed\\`).
+  * `avd`: path to the backup fresh avd (e.g., `avds/Custom Phone-6.0 320x480`).
+  * `tool_name`: the tool to be used (options including `RepDroid`, `RegionDroid` and `GridDroid`).
+  * `apk_dir`: the dir containing apks to generate birthmark (e.g., `H:\\DataSet_S1\\FDroid\\`).
+  * `output_dir`: the dir for keeping generation results (e.g., `J:\\TestOutPut\\RepDroid_by_Majun\\S1\\FDroid\\`).
+  * `reinstallapk`: if set `true`, an installed apk would be reinstalled.
+  * `takescreenshot`: if set `true`, an screenshot would be taken each time a new group is encountered.
+  * `max_explore_depth`: $d_m$ the birthmark depth limit, default value is `2`.
 4. Execute following command to generate birthmark:
 ```
 java -jar GridDroid.jar -gen bm_gen.properties
@@ -81,7 +81,7 @@ The following parameters are only applicable to GridDroid:
   * `delta_f`: Bucket Vector filter threshold (i.e., $\delta_f$), default value is `0.45`.
   * `delta_g`: Union Vector filter threashold (i.e., $\delta_g$), defalut value is `0.65`.
   * `bucket_number`: interval number of Bucket Vector filter (i.e., $k$), defalut value is `8`.
-  * `bucket_length`: interval length of Bucket Vector filter (i.e., $\sigma$, defalut value is `25`.
+  * `bucket_length`: interval length of Bucket Vector filter (i.e., $\sigma$), defalut value is `25`.
 2. Execute following command to generate birthmark:
 ```
 java -jar GridDroid.jar -cmp bm_compare.properties
