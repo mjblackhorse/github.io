@@ -14,7 +14,6 @@ This page describes parameters within the configuration file bm_gen.properties.
 
 ####  The parameters contained in bm_gen.properties are:
   * `android_sdk_path`: path ot the android sdk (e.g., `E:\\IDE\\AndroidSDK\\SDK`).
-  * `ant_root_path`: path to the ant root directory (e.g., `E:\\IDE\\apache-ant-1.10.11`).
   * `aapt_path`:  path to the aapt.exe (e.g., `E:\\IDE\\AndroidSDK\\SDK\\build-tools\\26.0.2\\aapt.exe`).
   * `genymotion_home`:  install directory of Genymotion (e.g, `C:\\Program Files\\Genymobile\\Genymotion\\`).
   * `vbox_home`: the install directory of VirtualBox (e.g., `C:\\Program Files\\Oracle\\VirtualBox\\`).
