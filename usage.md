@@ -24,7 +24,7 @@ The environment settings used in our evaluations are listed as follow:
 
 ## Run GridDroid
 
-### **Step-1**: Download and unzip the [GridDroid.jar](https://drive.google.com/file/d/1EJPBuPSFbh6DdeGNRW8ojc5GqgdkDeGb/view?usp=sharing)
+### **Step-1**: Download and unzip the [GridDroid.zip](https://drive.google.com/file/d/1NQAvh6-zPRblmPwyVyYbrSc8ods7Hv8x/view?usp=sharing)
 
 ### **Step-2**: Birthmark generation
 #### 1. Create an AVD via Genymotion.
@@ -44,7 +44,7 @@ The environment settings used in our evaluations are listed as follow:
   * Open the deploy directory of Genymotion (e.g., `C:\Users\username\AppData\Local\Genymobile\Genymotion\deployed`). The path of the deploy directory can be found via clicking ``Genymotion->Settings->VirtualBox`` of the GUI of Genymotion.
   * Copy the directory of the above created AVD to a location other than the deploy directory (e.g., `d:\AVDs\`).
 
-#### 3. Download and edit the configuration file [bm_gen.properties](bm_gen.properties) accordingly. 
+#### 3. Edit the configuration file bm_gen.properties accordingly. 
   * For description about the parameters, please refer to the [Description page of bm_gen.properties](bm_gen_description.md).
 
 #### 4. Execute following command to generate birthmark:
@@ -53,7 +53,7 @@ java -jar GridDroid.jar -gen bm_gen.properties
 ```
 
 ### **Step-3**: Birthmark comparison
-#### 1. Download and edit the configuration file [bm_compare.properties](bm_compare.properties) accordingly. 
+#### 1.Edit the configuration file bm_compare.properties accordingly. 
   * For description about the parameters, please refer to the [Description page of bm_compare.properties](bm_compare_description.md).
 
  
