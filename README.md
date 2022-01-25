@@ -9,7 +9,7 @@
 
 ---
 
-If you use above datasets or our tool, please cite the following paper ([bibtex](griddroid.bib)):
+If you use above datasets or our tool, please cite the following paper ([bibtex](/griddroid.bib)):
 
 + Jun Ma, Qingwei Sun, Chang Xu and Xianping Tao. GridDroid--An effective and efficient approach for Android repackaging detection based on runtime graphical user interface. JOURNAL OF COMPUTER SCIENCE AND TECHNOLOGY 37(1): Jan. 2022. DOI 10.1007/s11390-021-1659-3
 
