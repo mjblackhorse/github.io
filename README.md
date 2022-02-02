@@ -3,7 +3,7 @@
 + Datasets can be downloaded by clicking following links, and you can find a detailed descripion of our datasets [here](GridDroid-Datasets.pdf). 
   + [Dataset S1](https://drive.google.com/file/d/1QMOKupJsmZmwl8XIx8STavQt8hqSuWDF/view?usp=sharing)
   + [Dataset S2](https://drive.google.com/file/d/1GHrIEloIhtHydX4_3QofL1hTMIR3YttR/view?usp=sharing)
-  + [Dataset_S3](https://drive.google.com/file/d/1bEoumggrvsGOXwavU3M2pCLXZO0JrspR/view?usp=sharing)
+  + [Dataset S3](https://drive.google.com/file/d/1bEoumggrvsGOXwavU3M2pCLXZO0JrspR/view?usp=sharing)
 
 + You can find how to deploy and use GridDroid in the [Usage Description](usage.md) page.
 
