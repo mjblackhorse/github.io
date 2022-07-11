@@ -24,7 +24,7 @@ The environment settings used in our evaluations are listed as follow:
 
 ## Run GridDroid
 
-### **Step-1**: Download and unzip the [GridDroid.zip](https://drive.google.com/file/d/1wgqlp2Mz_qkgt68XZq5WTU_ofzGQfhB7/view?usp=sharing) (The file also includes RepDroid and RegionDroid)
+### **Step-1**: Download and unzip the [GridDroid.zip](https://box.nju.edu.cn/f/330da494442d4dac8b7d/?dl=1) (The file also includes RepDroid and RegionDroid)
 
 ### **Step-2**: Birthmark generation
 #### 1. Create an AVD via Genymotion.
